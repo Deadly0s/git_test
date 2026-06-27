@@ -1,0 +1,17 @@
+200
+The HTTP request was successful.
+
+301
+The requested resource has been permanently moved to a new location, which is provided in the response. This is used for redirecting content when it's moved.
+
+400
+The server can't process the request. This usually happens when the request isn't in a format the server understands, or has errors in it.
+
+403
+The server will not give the client access to the requested resource. This usually happens when the server knows who the client is, but they don't have permission to access the requested page.
+
+404
+The server cannot find the requested resource. This status is commonly returned if the URL is wrong or if content is deleted without putting a redirect in place.
+
+503
+The request cannot be handled due to a problem with the server. This is common when servers are offline for maintenance, and it's expected to be temporary.
